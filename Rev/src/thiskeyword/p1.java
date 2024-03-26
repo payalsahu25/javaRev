@@ -8,19 +8,20 @@ public class p1 {
 	public void test() { // local variable
 
 		String name = "mommy";
-		int  rollnum = 72813;
-		
+		int rollnum = 72813;
+
 		System.out.println(this.name);
 		System.out.println(this.rollnum);
-		
+
 		System.out.println(name);
 		System.out.println(rollnum);
 
-}
+	}
+
 	public static void main(String[] args) {
 		p1 p = new p1();
 		p.test();
 
-
+		System.out.println("Thank you for visiting my github profile");
 	}
 }
